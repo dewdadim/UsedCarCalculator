@@ -1,0 +1,32 @@
+﻿* {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    color: #333231;
+}
+
+body {
+    background-color: #fdcf33;
+    background-image: url(../Image/cover.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 16px 0;
+    background-color: #fdcf33;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.button:hover {
+    background-color: #ddc163;
+}
+
